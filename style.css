@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+
+.container .logo {
+    text-align: center;
+    background-image: url(images/bg-header-desktop.png);
+    padding: 40px 20px 0px;
+}
+
+.container .header {
+    text-align: center;
+    margin-top: 20px;
+}
+.header h2 {
+    color: hsl(210, 10%, 33%);
+}
+
+@media (max-width:767px) {
+    .header h2  {
+        margin: 0px auto;
+        max-width: 300px;
+        
+    }
+}
+
+.header p {
+    max-width: 550px;
+    text-align: center;
+    margin:15px auto;
+    color: hsl(201, 11%, 66%);
+}
+
+.container .download-zone {
+    /* background-color: burlywood; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: space-evenly;
+    
+   
+}
+
+.download-zone .ios-zone {
+   
+    background-color: hsl(171, 66%, 44%);
+}
+.download-zone .mac-zone {
+    background-color: hsl(233, 100%, 69%);
+}
+.download-zone > div {
+    margin:10px 0px;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.container .guide-zone {
+    text-align: center;
+}
+.guide-zone h3 {
+    color: hsl(210, 10%, 33%);
+}
+
+
+.guide-zone p {
+    max-width: 630px;
+    text-align: center;
+    margin:15px auto;
+    color: hsl(201, 11%, 66%);
+}
+@media (max-width:767px) {
+    .guide-zone p {
+        
+        margin:15px;
+        max-width: 600px;
+
+    }
+}
+.section-1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content: center;
+    position: relative;
+    margin-top: 30px;
+    /* text-align: center; */
+}
+@media (max-width:767px) {
+    .section-1 .imac-pic {
+        margin: 5px 10px;
+    }
+}
+
+.section-1 .imac-pic img {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section-1  .reco {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px; 
+    margin-left: 20px;
+    
+}
+.reco .search-sec h3,
+.reco .icloud-sec h3,
+.reco .history-sec h3 {
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 10px ;
+}
+.reco .search-sec p,
+.reco .icloud-sec p,
+.reco .history-sec p {
+
+    margin-bottom: 40px;
+    max-width: 450px;
+    color: hsl(201, 11%, 66%);
+    margin-left:  auto;
+    margin-right:  auto;
+    
+}
+
+@media (max-width:767px) {
+    .reco {
+        text-align: center;
+           
+    }
+}
+
+.container .access-zone {
+    text-align: center;
+    margin-top: 30px;
+}
+.access-zone h2 {
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 20px ;
+}
+.access-zone p {
+    color: hsl(201, 11%, 66%);
+    max-width: 300px;
+    margin: 5px auto 30px auto ;
+}
+.container .ipad-phone-pic {
+    margin: 10px auto;
+    text-align: center;
+}
+.container .ipad-phone-pic img {
+    max-width: 100%;
+}
+.container .workflow-zone {
+    text-align: center;
+    margin-top: 20px;
+}
+.workflow-zone h2 {
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 20px ;
+}
+.workflow-zone p {
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 20px ;
+    max-width: 340px;
+    margin: 0px auto;
+}
+
+.work-tools {
+    margin: 40px auto;
+    /* background-color: cornflowerblue; */
+    /* position: absolute; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    text-align: center;
+
+}
+
+.work-tools .list,
+.work-tools .text,
+.work-tools .preview {
+    /* margin-right: 40px; */
+    max-width: 400px;
+    margin:10px  auto;
+}
+
+.work-tools .list h3,
+.work-tools .text h3,
+.work-tools .preview h3 {
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 20px ;
+    margin-top: 20px ;
+}
+.work-tools .text,
+.work-tools .preview {
+    margin-top: 8px;
+} 
+
+.work-tools .list p,
+.work-tools .text p,
+.work-tools .preview p {
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 20px ;
+    margin: 20px auto;
+    max-width: 340px;
+}
+
+.companies {
+    margin: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    text-align: center;
+    
+}
+.companies img {
+    max-width: 500px;
+    margin:20px 40px;
+    max-height: 100px;
+}
+@media (max-width:400px) {
+    .companies img:nth-child(4),
+    .companies img:last-of-type {
+        margin-left: 7px;
+    }
+}
+
+.last-download h2 {
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 20px ;
+    margin-top: 20px ;
+    text-align: center;
+
+}
+.last-download p {
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 20px ;
+    margin: 20px auto;
+    max-width: 650px;
+    text-align: center;
+}
+.last-download .links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+.last-download .links a {
+    color: white;
+    padding: 10px 40px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    
+}
+
+.last-download  .links a:first-of-type {
+    background-color: hsl(171, 66%, 44%);
+}
+.last-download .links a:last-of-type {
+    background-color: hsl(233, 100%, 69%);
+}
+
+.footer {
+    display: flex;
+    margin: 20px auto;
+    background-color: rgb(233, 233, 233);
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    color: gray;
+    
+    
+    
+}
+.footer div:not(:last-of-type) {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.footer div span:not(:last-of-type) {
+    
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+
+@media (max-width:767px) {
+    .footer {
+        flex-direction: column;
+    }
+    .footer div {
+        margin-bottom: 10px;
+    }
+} 
+
+.footer .sm-logo img {
+    max-width: 50px;
+}
+
+ .footer .social-media img {
+    margin: 10px;
+
+} 
